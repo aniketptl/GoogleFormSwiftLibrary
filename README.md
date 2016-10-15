@@ -2,7 +2,7 @@
 
 Super Simple Google Form Integration using Swift.
 
-# Usage
+### Usage
 
         let gForm = GoogleForm()
         
@@ -20,7 +20,7 @@ Super Simple Google Form Integration using Swift.
         /* Sends data to google form */
         gForm.sendToGoogleForm()
 
-# Instructions
+### Instructions
 1. Create new form in Google Drive
 ![Alt text](/Screens/form.png)
 
@@ -39,6 +39,11 @@ Super Simple Google Form Integration using Swift.
     - entry.616869385 will be googleFormCompanyField
     
 6. You are done
+
+### Cons
+        It can only post data , no backway traffic
+
+
         
 
 

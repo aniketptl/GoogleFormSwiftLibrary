@@ -30,11 +30,6 @@ public func setGoogleFormLink(text:String)
     postData.appendContentsOf(text)
 }
 
-public func setFirstField(entry:String,value:String) {
-      data = "&"+entry+"="+value
-      postData.appendContentsOf(data)
-}
-
 public func setNextFields(entry:String,value:String)
 {
       data2 = "&"+entry+"="+value

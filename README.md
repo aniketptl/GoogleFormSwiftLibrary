@@ -3,7 +3,10 @@
 Super Simple Google Form Integration using Swift.
 
 ### Usage
-
+        String googleFormNameField = "entry.988940513"
+        String googleFormCompanyField = "entry.616869385"
+        //..Next entries or vairiables..//
+        
         let gForm = GoogleForm()
         
         /* Clear the Contents before next entry */
